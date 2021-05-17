@@ -1,0 +1,39 @@
+/* STYLESHEET */
+* { outline: white 1px solid }          /* DELETE */
+/* xs DF */ 
+body { background-color: red }
+
+/* sm */ 
+@media (min-width: 576px) {
+body { background-color: orange }
+    }
+
+/* md */    
+@media (min-width: 768px) {
+body { background-color: yellow }
+    }
+
+/* lg */    
+@media (min-width: 992px) {
+body { background-color: green }            
+    }
+
+/* xl */    
+@media (min-width: 1200px) {
+body { background-color: blue }
+    }
+body {
+    margin: 0px;
+}
+.blue {
+    background-color: #3FB4FF;
+    height: 350px;
+    text-align: center;
+    }
+.orange {
+    background-color: orange;
+    }
+.pink {
+    background-color: pink;
+    height: 320px;                
+    }

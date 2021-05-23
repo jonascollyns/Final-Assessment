@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">       
     <head>
-        <title>Irken Interests</title>
+        <title>Irken Interests - Contact</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
         <meta charset="utf-8">
@@ -17,21 +17,27 @@
                 font-family: 'KoHo', sans-serif;
                 font-size: 1.5em;
             }
+            img {
+                max-height: 190px;
+            }
             a > img {
                 max-height: 250px;
                 padding-top: 10px;
-            }
-            img {
-                max-height: 430px;
             }
             p {
                 padding: 5px;
             }
             a {
-                color: #2a2a2c; #d7d6d6
+                color: #ed1363; 
+            }
+            h4 {
+                color: #ed1363; 
             }
             h1 {
                 color: #2a2a2c;
+            }
+            h2 {
+                color: #ed1363;
             }
             #logo {
                 background-color: #989898;
@@ -43,27 +49,20 @@
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
 /* sm */ 
-            @media (min-width: 576px) {
-                body {
-                }
+            @media (min-width: 576px) { 
                 a > img {
                     max-height: 295px;
                     padding-top: 10px;
-                }
-                img {
-                    max-height: 530px;
                 }
             }
 /* md */    
             @media (min-width: 768px) {
                 body {
+                    text-align: center;
                 }
                 a > img {
-                    max-height: 350px;
+                    max-height: 400px;
                     padding-top: 10px;
-                }
-                img {
-                    max-height: 530px;
                 }
             }
 /* lg */    
@@ -71,12 +70,6 @@
                 body {
                     text-align: center;
                 }
-                #content {
-                    padding-left: 7px;
-                    padding-right: 7px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }           
             }
         </style>
     </head>
@@ -89,17 +82,13 @@
                     <a href="users.html"><h3>Users</h3></a>
                     <a href="profile.html"><h3>Profile</h3></a>
                     <a href="reviews.html"><h3>Reviews</h3></a> 
-                    <a href="contact.html"><h3>Contact</h3></a>  
+                    <h3>Contact</h3>  
                 </div>
         </div>
         <h1>The Galaxies Best Irken Connector</h1>
-        <div id="content">
-            <div class="photo">
-                <img src="img/hugging.png">
-            </div>
-            <div class="info">
-                <p>We understand as a species that going out to planets alone to dominate the entire universe can get lonely. Due to millions of years of learning from foreign planets and sources we have created a new form of Hypertext Transfer Protocol that we have named accordingly to be the Irken Galaxy Transfer Protocol (IGTP). Using our state of the art technology we have created a platform that any Irkens can use to connect to other Irken invaders that are in need of an Irken connection. Have a look around through our page and find your Irken Interest.</p>
-            </div>
-        </div>
+        <h2>Contact Us</h2>
+        <p>Hey there! Trying to get in touch with us? You've come to the best place for it. Emailing or Calling us directly is the best way for us to help answer any questions you may have about our services.<p>
+        <h3>Email:</h3> <h4>IrkenInterests@galaxymail.com</h4>
+        <h3>Phone:</h3> <h4>0800 913 627</h4>
     </body>
 </html>
